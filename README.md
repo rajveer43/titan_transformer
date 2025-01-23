@@ -1,7 +1,7 @@
 # titan_transformer
 
 
-
+```
 TitanModel(
   (embedding): Embedding(50000, 512)
   (transformer): TitanTransformer(
@@ -44,3 +44,4 @@ TitanModel(
     (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
   )
 )
+```
