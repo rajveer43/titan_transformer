@@ -8,6 +8,10 @@ This repository contains the implementation of the Titans architecture, a next-g
 - **Memory as Gate (MAG):** Employs sliding-window attention for short-term memory and a gating mechanism to blend long-term context effectively.
 - **Memory as Layer (MAL):** Treats the memory module as an independent layer, compressing past and current information before attention mechanisms.
 
+### Visualization:
+![Titan Model Visualization](titan_model_torchviz1.png)
+
+
 ## Code Structure
 ### Architecture Modules
 - **`PersistentMemory`**: Provides static task-specific knowledge.
